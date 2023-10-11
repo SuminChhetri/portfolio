@@ -1,2 +1,2 @@
 # portfolio
- This is my protfolio assignment made using express. This is my first web application development assignement. 
+ This is my portfolio assignment made using express. This is my first web application development assignment. 
