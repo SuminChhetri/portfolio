@@ -1,0 +1,22 @@
+<nav>
+    <a href="/">
+    <img src="/public/img/Logo.png" title="Click to get on Home"alt="Logo" class="logo">
+    </a>
+    <div class="controls">
+    <a href="/" title="HOME" class="control <%= currentPage === 'home' ? 'active-link' : '' %>" id="home-link">
+        <i class="fas fa-home"></i>
+    </a>
+    <a href="/about" title="About" class="control <%= currentPage === 'about' ? 'active-link' : '' %>" id="about-link">
+        <i class="fas fa-user"></i>
+    </a>
+    <a href="/projects" title="Projects" class="control <%= currentPage === 'projects' ? 'active-link' : '' %>" id="projects-link">
+        <i class="fas fa-briefcase"></i>
+    </a>
+    <a href="/services" title="Services" class="control <%= currentPage === 'services' ? 'active-link' : '' %>" id="services-link">
+        <i class="fas fa-cogs"></i>
+    </a>
+    <a href="/contact" title="Contact" class="control <%= currentPage === 'contact' ? 'active-link' : '' %>" id="contact-link">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+    </div>
+</nav>
